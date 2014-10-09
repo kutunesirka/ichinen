@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://googleichinen/locale/ichinen.dtd">
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow id="googleichinen-options-window"
+            title="&googleichinen.options.windowtitle;"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <prefpane flex="1">
+        <preferences>
+            <preference id="searchbutton.pref" name="extensions.googleichinen-search.searchbutton" type="string" />
+        </preferences>
+        <groupbox flex="1">
+            <vbox flex="1">
+                <grid flex="1">
+                    <columns>
+                        <column/>
+                        <column flex="1"/>
+                    </columns>
+                    <rows>
+                        <row>
+                            <label value="&googleichinen.options.searchlabel;" control="search.button.pref"/>
+                            <menulist id="search.button.pref" preference="searchbutton.pref">
+                                <menupopup>
+                                    <menuitem label="&search_1nenLabel;" value="y"/>
+                                    <menuitem label="&search_1zikanLabel;" value="h"/>
+                                    <menuitem label="&search_24zikanLabel;" value="d"/>
+                                    <menuitem label="&search_1weekLabel;" value="w"/>
+                                    <menuitem label="&search_1monthLabel;" value="m"/>
+                                    <menuitem label="&search_3monthLabel;" value="m3"/>
+                                    <menuitem label="&search_halfyearLabel;" value="m6"/>
+                                </menupopup>
+                            </menulist>
+                        </row>
+                    </rows>
+                </grid>
+            </vbox>
+        </groupbox>
+    </prefpane>
+
+</prefwindow>

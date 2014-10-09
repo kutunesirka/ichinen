@@ -1,0 +1,11 @@
+<!ENTITY googleichinen.options.windowtitle "ichinen search - 設定">
+<!ENTITY googleichinen.options.searchlabel "ボタンをクリックした時の設定">
+<!ENTITY statLabel "Google期間検索">
+<!ENTITY search_1nenLabel "1年以内">
+<!ENTITY search_1zikanLabel "1時間以内">
+<!ENTITY search_24zikanLabel "24時間以内">
+<!ENTITY search_1weekLabel "1週間以内">
+<!ENTITY search_1monthLabel "1ヶ月以内">
+<!ENTITY search_3monthLabel "3ヶ月以内">
+<!ENTITY search_halfyearLabel "半年以内">
+<!ENTITY pref_window_open "設定">

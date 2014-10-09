@@ -1,0 +1,11 @@
+#toolbar-search {
+  list-style-image: url("chrome://googleichinen/skin/on.png");
+}
+
+#toolbar-search[icontype="off"]  {
+  list-style-image: url("chrome://googleichinen/skin/off.png");
+}
+
+#toolbar-search[icontype="on"]  {
+  list-style-image: url("chrome://googleichinen/skin/on.png");
+}

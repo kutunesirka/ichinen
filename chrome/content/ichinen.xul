@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://googleichinen/locale/ichinen.dtd">
+<overlay id="search-overlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript" src="chrome://googleichinen/content/ichinen.js"/>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="toolbar-search"
+                       class="toolbarbutton-1 chromeclass-toolbar-additional"
+                       tooltiptext="&statLabel;"
+                       label="&statLabel;"
+                       type="menu-button"
+                       oncommand="kutunesirka.ichinen_search.init.searchPursue('y', false)">
+            <!-- melletti menu -->
+            <menupopup id="toolbar-search-contextmenu"
+                       oncommand="event.stopPropagation();">
+                <menuitem id="search_1nen"
+                          label="&search_1nenLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('y', true);"/>
+                <menuseparator/>
+                <menuitem id="search_1zikan"
+                          label="&search_1zikanLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('h', true);"/>
+                <menuitem id="search_24zikan"
+                          label="&search_24zikanLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('d', true);"/>
+                <menuitem id="search_1week"
+                          label="&search_1weekLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('w', true);"/>
+                <menuitem id="search_1month"
+                          label="&search_1monthLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('m', true);"/>
+                <menuseparator/>
+                <menuitem id="search_3month"
+                          label="&search_3monthLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('m3', true);"/>
+                <menuitem id="search_halfyear"
+                          label="&search_halfyearLabel;"
+                          oncommand="kutunesirka.ichinen_search.init.searchPursue('m6', true);"/>
+                <menuseparator/>
+                <menuitem id="search_halfyear"
+                          label="&pref_window_open;"
+                          oncommand="window.openDialog('chrome://googleichinen/content/dialogs/options.xul', 'Preferences', 'chrome,titlebar,toolbar,centerscreen,modal');"/>
+            </menupopup>
+        </toolbarbutton>
+    </toolbarpalette>
+
+</overlay>

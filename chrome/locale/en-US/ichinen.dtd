@@ -1,0 +1,11 @@
+<!ENTITY googleichinen.options.windowtitle "ichinen search - Options">
+<!ENTITY googleichinen.options.searchlabel "Setting when I clicked a search button">
+<!ENTITY statLabel "Google Any Time Search">
+<!ENTITY search_1nenLabel "Past year">
+<!ENTITY search_1zikanLabel "Past hour">
+<!ENTITY search_24zikanLabel "Past 24 hours">
+<!ENTITY search_1weekLabel "Past week">
+<!ENTITY search_1monthLabel "Past month">
+<!ENTITY search_3monthLabel "Past 3 month">
+<!ENTITY search_halfyearLabel "Past a half year">
+<!ENTITY pref_window_open "Preferences">

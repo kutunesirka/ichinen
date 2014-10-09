@@ -1,0 +1,6 @@
+content     googleichinen    chrome/content/
+skin googleichinen classic/1.0 chrome/skin/
+overlay chrome://browser/content/browser.xul chrome://googleichinen/content/ichinen.xul
+style chrome://browser/content/browser.xul chrome://googleichinen/skin/ichinen.css
+style chrome://global/content/customizeToolbar.xul chrome://googleichinen/skin/ichinen.css
+locale googleichinen ja chrome/locale/ja/

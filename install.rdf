@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>ichinen-firefox@kutunesirka.com</em:id>
+        <em:version>0.0.4</em:version>
+        <em:type>2</em:type>
+    
+        <em:name>ichinen for Firefox</em:name>
+        <em:description>This extension to narrow easily date range of Google search.</em:description>
+        <em:creator>kutunesirka</em:creator>
+        <em:homepageURL>http://kutunesirka.github.io/</em:homepageURL>
+	<em:optionsURL>chrome://googleichinen/content/dialogs/options.xul</em:optionsURL>
+
+        <em:localized>
+            <Description>
+                <em:locale>ja</em:locale>
+                <em:name>ichinen for Firefox</em:name>
+                <em:description>Google検索の期日範囲を簡単に絞り込むための拡張機能です。</em:description>
+            </Description>
+        </em:localized>
+   
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>3.5</em:minVersion>
+                <em:maxVersion>27.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+   
+    </Description>
+</RDF>
