@@ -14,6 +14,9 @@ I am not an English speaker. I may not be able to understand difficult English i
 I hope the Japanese or simple English. 
 If you can read the Japanese, which should be read in conjunction with the [README.Japanese.md](./README.Japanese.md "README.Japanese.md").
 
+## Todo
+* Migrating to WebExtensions APIs.
+
 ## How to use
 1. You can add an icon of the extension to the toolbar. This button is effective, it is time you are viewing a Google search.
 1. When you click the icon, the search results are switched.
